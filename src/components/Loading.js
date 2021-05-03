@@ -17,7 +17,7 @@ const Loading = () => {
       </Col>
 
       <h6 style={{ margin: "0 auto", paddingTop: "3rem" }}>
-        Obs: nas primeiras requisições é um pouco demorado devido ao tempo de
+        Obs.: as primeiras requisições são um pouco demoradas devido ao tempo de
         inicialização do servidor do Heroku
       </h6>
     </Row>
