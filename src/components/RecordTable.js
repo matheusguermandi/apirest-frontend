@@ -57,10 +57,14 @@ const RecordTable = () => {
             <td>{p.cpf}</td>
             <td>{format(parseISO(p.nascimento), "dd/MM/yyyy")}</td>
             <td style={{ textAlign: "center" }}>
-              <Button color="info" onClick={() => openModal(p)}>
+              <Button color="info" onClick={() => openModal(p)} title="Editar">
                 <FiEdit size={17} />
               </Button>{" "}
-              <Button color="danger" onClick={() => handleDeletePeople(p.id)}>
+              <Button
+                color="danger"
+                onClick={() => handleDeletePeople(p.id)}
+                title="Excluir"
+              >
                 {" "}
                 <FiTrash2 size={17} />
               </Button>

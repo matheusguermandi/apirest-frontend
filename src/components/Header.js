@@ -26,6 +26,7 @@ const Header = () => {
         <Button
           color="success"
           className="float-right"
+          title="Cadastrar"
           onClick={() => openModal()}
         >
           <FiPlusCircle size={17} /> Pessoa
